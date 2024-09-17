@@ -1,0 +1,1141 @@
+body {
+    background-color: rgb(88, 81, 88);
+}
+
+.logoi h1 {
+    font-size: 5rem;
+    margin: 0px 0px 38px 0px;
+}
+
+.titulo {
+    color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    margin: -160px 0px 0px 110px;
+    position: absolute;
+}
+
+.divBusca {
+    margin: -90px 0px 0px 650px;
+    background-color: #FFE4C4;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+.txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 20px;
+    width: 260px;
+}
+
+.area-login img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    border-radius: 2rem;
+    margin: -70px 0px 0px 1000px;
+    position: absolute;
+}
+
+.area--login {
+    margin: -10px 0px 0px 984px;
+    position: absolute;
+}
+
+.atendimento-cliente img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 2rem;
+    margin: -70px 0px 0px 1200px;
+}
+
+.atendimento--cliente {
+    margin: 10px 0px 0px 1188px;
+}
+
+.carrinho-compras img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 1rem;
+    margin: -96px 0px 0px 1400px;
+}
+
+.carrinho--compras {
+    margin: 10px 0px 0px 1357px;
+}
+
+.menu {
+    list-style: none;
+    padding: 20px 0px 20px 420px;
+    background-color: bisque;
+    display: flex;
+    margin-top: 50px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    color: rgb(0, 19, 230);
+    padding: 10px;
+    display: flex;
+    display: inline;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.menu a::after {
+    content: '';
+    width: 4rem;
+    height: 1px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    opacity: 0;
+    transition: all 0.3 ease;
+}
+
+.menu a:hover::after {
+    opacity: 1;
+}
+
+.menu a:hover {
+    color: #7700ff;
+}
+
+.imgmeio {
+    background-image: linear-gradient(10deg, #000000, #00000020), url('images/2024_-_30_ago_a_13_set_Independ_ncia_1920x450\ \(1\).jpg');
+    width: 1503px;
+    height: 400px;
+    margin-top: -20px;
+}
+
+.textoimg {
+    max-width: 1200px;
+    margin: 0px 0px 0px 200px
+}
+
+.textoimg p {
+    color: white;
+    /*Define a cor */
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    /*Adiciona um espaçamento de 1rem embaixo do parágrafo */
+    font-weight: 500;
+}
+
+.textoimg a {
+    margin-top: 2rem;
+    /*Adiciona um espaçamento de 2rem em cima do link */
+    text-decoration: none;
+    /*Remover a formatação de sublinhado dos links */
+    color: #000000;
+    background-color: bisque;
+    display: inline-block;
+    /*Define o layout do link como branco */
+    padding: 1rem 3rem;
+    /*Adiciona espaçamento de 1rem em cima e em baixo e 3rem à esquerda e à direita do link */
+    border-radius: 3rem;
+    /*Definir a borda do link como um arredondamento de 3rem */
+}
+
+.menu-beneficios {
+    background-color: rgb(88, 81, 88);
+}
+
+.alinhar {
+    margin: 0px 0px 0px 155px;
+    display: inline;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 4rem 0;
+}
+
+.base-beneficios {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    padding: 3rem 0;
+}
+
+.cartoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 2rem;
+    gap: 1.5rem;
+    width: 500px;
+    background-color: #ffe4c4;
+    padding: 1.0rem 0;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.cartoes img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.cartoes2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    border-radius: 2rem;
+    gap: 1.5rem;
+    width: 500px;
+    background-color: #ffe4c4;
+    padding: 1.0rem 0;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0);
+}
+
+.cartoes2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    /*Define a direção flexível para a coluna usando flex-direction */
+    gap: 0.5rem;
+}
+
+.conteudo span {
+    font-weight: 700;
+    /*Define o peso da fonte para 700 usando font-weigth */
+    font-size: 1.2rem;
+    color: black;
+}
+
+.conteudo p {
+    color: rgb(88, 81, 88);
+    font-weight: 400;
+}
+
+.titulomeio {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: bisque;
+}
+
+.posicao-texto {
+    display: flex;
+    justify-items: center;
+    padding: 20px 200px 50px 200px;
+}
+
+.texto {
+    font-size: 15px;
+    text-align: justify;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.texto b {
+    color: rgb(4, 0, 110);
+}
+
+
+.img-loja img {
+    margin: 0px 0px 0px 100px;
+}
+
+.container-categoria {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+}
+
+.card-categoria {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    /*Define a direção flexível */
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    gap: 2rem;
+
+}
+
+.categoria-i5 {
+    background-image: linear-gradient(#00000000, #00000080), url('images/destaques\ -\ p1.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 700px;
+}
+
+.categoria-i5 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 0px 360px 170px 0px;
+}
+
+.categoria-i7 {
+    background-image: linear-gradient(#00000000, #00000080), url('images/destques\ -p2.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 700px;
+}
+
+.categoria-i7 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 0px 360px 170px 0px;
+}
+
+.categoria-i9 {
+    background-image: linear-gradient(#00000000, #00000080), url('images/destaques-p3.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 700px;
+}
+
+.categoria-i9 img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 0px 360px 170px 0px;
+}
+
+.types {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.card-categoria p {
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    /*Coloca em maiúsculo a primeira letra de cada palavra no texto */
+    position: relative;
+    /*Define a posição dos <p> elementos como relativo, que nos permite posicionar o pseudo-elemento ::after de forma absoluta */
+}
+
+.card-categoria p::after {
+    content: '';
+    /*Define o conteúdo do pseudo-elemento como uma string vazia, necessária para criar o pseudo-elemento */
+    width: 3.5rem;
+    height: 4px;
+    background-color: #fff;
+    position: absolute;
+    /*Define a posição do pseudo-elemento como absoluta, o que nos permite posiciona-lo em relação ao seu elemento pai */
+    bottom: -1rem;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.card-categoria span {
+    font-size: 1.6rem;
+    color: #fff;
+    cursor: pointer;
+    /*Define o formato do cursor como uma mão, apontando ao passar o mouse sobre os <span> elementos*/
+
+}
+
+.card-categoria span:hover {
+    color: white;
+}
+
+
+/*****************************************************************/
+/**                       MELHORES PRODUTOS                     **/
+/*****************************************************************/
+
+
+.top-products {
+    display: flex;
+    /*Definir um layout flexível */
+    flex-direction: column;
+    /*Direção dos itens e vertical (coluna) */
+    gap: 2rem;
+    /*Espaçamento entre os elementos filhos */
+    margin-bottom: 3rem;
+    /*Margem inferior*/
+}
+
+.container-options {
+    display: flex;
+    /* Definir um layout flexível */
+    justify-content: center;
+    /*Centralizar os elementos ao longo do eixo principal */
+    gap: 10rem;
+    /*Espaçamento entre os elementos filhos */
+    margin-bottom: 1rem;
+    /*Margem inferior */
+}
+
+.container-options span {
+    color: #777;
+    /*Cor do texto */
+    background-color: #fff;
+    /*Cor de fundo */
+    padding: 0.7rem 3rem;
+    /*Espaçamento interno com 0.7 na parte superior e inferior e 3 rem na direita e esquerda */
+    font-size: 1.4rem;
+    /*Tamanho da fonte */
+    text-transform: capitalize;
+    /*Capitaliza o primeiro caractere de cada palavra */
+    border-radius: 2rem;
+    /*Arredonda as bordas */
+    cursor: pointer;
+    /*Muda o cursor para indicar que é clicável */
+}
+
+.container-options span:hover {
+    background-color: rgb(26, 1, 96);
+    color: #fff;
+}
+
+/***********PRODUTOS********/
+
+.heading-1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    color: white;
+}
+
+.container-produtos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*Mantem 4 colunas em uma linha */
+    gap: 6rem;
+    margin: 0px 100px 50px 50px;
+}
+
+.card-product {
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+    /*Diminuir o padding para ajustar o tamanho */
+    border-radius: 0.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    /*Garante que o card ocupe a largura da coluna */
+}
+
+.container-img {
+    position: relative;
+}
+
+.container-img img {
+    width: 100%;
+}
+
+.container-img .discount {
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    color: #fff;
+    padding: 2px 1.2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.card-product:hover .discount {
+    background-color: #000;
+}
+
+
+/************ ANIMAÇÃO BOTÕES ************/
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: absolute;
+    /*Posição absoluta para posicionamento específico */
+    top: 0;
+    /*alinhamento no topo */
+    right: -3rem;
+    /*Alinhamento a direita */
+    z-index: -1;
+    /*Define a sobreposição incicial */
+    transition: all 0.4s ease;
+    /*Animação de transição suave */
+}
+
+.button-group span {
+    border: 1px solid #695a49;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.button-group span:hover {
+    background-color: #695a49;
+}
+
+.button-group span i {
+    font-size: 1.5rem;
+    color: #695a49;
+}
+
+.button-group span:hover i {
+    color: #fff;
+}
+
+.card-product:hover .button-group {
+    z-index: 0;
+    right: -1rem;
+}
+
+/*********INICIA AS ESTRELASSS********/
+
+.content-card-product {
+    display: grid;
+    /*Definir um layout de grade*/
+    justify-items: center;
+    /*Centraliza os itens horizontalmente */
+    grid-template-columns: 1fr 1fr;
+    /*Cria duas colunas de tamanho igual*/
+    grid-template-rows: repeat(4, min-content);
+    /*Cria 4 linhas de altura minima*/
+    row-gap: 1rem;
+}
+
+.stars {
+    grid-row: 1/2;
+    /*Ocupa a priemira linha da grade*/
+    grid-column: 1/-1;
+    /* Ocupa todas as colunas da grade */
+}
+
+.stars i {
+    font-size: 1.2rem;
+    /*Define o tamanho das estrelas */
+    color: #695a49;
+    /*Define a cor das estrelas */
+}
+
+.content-card-product h3 {
+    grid-row: 2/3;
+    /*Ocupa a segunda linha da grade */
+    grid-column: 1/-1;
+    /*Ocupa todas as colunas da grade */
+    font-weight: 400;
+    /*Defina o peso da fonte */
+    font-size: 1.2rem;
+    /*Define o tamanho da fonte */
+    margin-bottom: 1rem;
+    /*Define a margem inferior */
+    cursor: pointer;
+    /*Muda o cursos para indicar que o titulo é clicável */
+}
+
+.content-card-product h3:hover {
+    color: #695a49;
+    /*Muda a cor do titulo ao passar o mouse */
+}
+
+.add-cart {
+    justify-self: start;
+    /* Alinha o botão ao inicio horizontalmente */
+    border: 2px solid #695a49;
+    /*Define uma borda ao redor do botão */
+    padding: 1rem;
+    border-radius: 50%;
+    /*Define o formato circular nos cantos, (arredondamento) */
+    cursor: pointer;
+    /*Muda o cursor para indicar que é clicável */
+    transition: all 0.4s ease;
+    /*Transição suave ao alterar estilos */
+    display: flex;
+    /*Define um layout flexível */
+    align-items: center;
+    justify-content: center;
+    /*Centrliza o conteúdo horizontalmente */
+}
+
+.add-cart:hover {
+    background-color: #695a49;
+    /*Muda a cor do fundo do botão ao passar o mouse */
+
+}
+
+.add-cart i {
+    font-size: 0.9rem;
+    /*Define o tamanho do icone */
+    color: #695a49;
+}
+
+.add-cart:hover i {
+    color: #fff;
+    /*Muda a cor do icone ao passar o mouse */
+}
+
+.content-card-product .price {
+    justify-self: end;
+    /*Alinha o preço ao final horizontalmente */
+    align-self: center;
+    /*Centraliza o preço verticalmente */
+    font-size: 1.4rem;
+    /*Define o tamanho da fonte do preço */
+    font-weight: 600;
+    /*Define o peso da fonte do preço */
+}
+
+.content-card-product .price span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    /*Aplica um risco sobre o preço */
+    color: #777;
+    margin-left: 0.5rem;
+    /*Define uma margem a esquerda do preço original */
+
+}
+
+/*****************************************************************/
+/**                       LOCALIZAÇÃO                           **/
+/*****************************************************************/
+
+.local {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+}
+
+form {
+    width: 100%;
+    /*Define a largura do formulário como 100% */
+    max-width: 400px;
+    /*Define a largura maxima do formulário */
+    display: flex;
+    flex-direction: column;
+    /*Define a direção do formulário como coluna */
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+/*****************************************************************/
+/**                      INFORMATIVO                            **/
+/*****************************************************************/
+
+.blogs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.card-blog {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 40px 20px 40px 20px;
+    padding: 20px 30px 60px 30px;
+    background-color: bisque;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-blog .container-img {
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    /*Oculta o conteúdo que excede o container */
+}
+
+.container-img {
+    border-radius: 10px;
+}
+
+.button-group-blog {
+    position: absolute;
+    /*Definir a posição absoluta do gurpo de botões */
+    bottom: 1.2rem;
+    right: -2.5rem;
+    /*Inicialmente posiciona o grupo de botões a direita, fora da tela */
+    display: flex;
+    gap: 0.7rem;
+    z-index: -1;
+    /*Coloca o grupo de botões atrás do conteúdo */
+    transition: all 0.3s ease;
+    /*Adiociona uma transição suave de 0.3s para o movimento */
+}
+
+.card-blog:hover .button-group-blog {
+    z-index: 0;
+    /*Quando o cartão é sobreposto, traz o grupo de botões para frente */
+    right: 1.5rem;
+    /*Move o grupo de botões para a posição visível a direita */
+}
+
+.button-group-blog span {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: all 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group-blog span i {
+    font-size: 1.3rem;
+}
+
+.button-group-blog span:hover i {
+    color: #fff;
+}
+
+.button-group-blog span:hover {
+    background-color: black;
+}
+
+.content-blog h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+    color: #ae00ff;
+    font-weight: 400;
+}
+
+.content-blog h3:hover {
+    color: #ff8800;
+    cursor: pointer;
+}
+
+.content-blog p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    color: #777;
+}
+
+.content-blog span {
+    color: #00746c;
+    font-size: 1.3rem;
+}
+
+.btn-read-more {
+    padding: 1rem 3rem;
+    background-color: #c7a17a;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    margin: 2rem 0 5rem;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn-read-more:hover {
+    background-color: rgb(4, 0, 65);
+}
+
+.footer {
+    background-color: #695a49;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem;
+    background-color: #c7a17a;
+}
+
+.menu-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 30rem;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.title-footer {
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.contact-info,
+.information,
+.my-account,
+.newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-info ul,
+.information ul,
+.my-account ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info ul li,
+.information ul li,
+.my-account ul li {
+    list-style: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+}
+
+.information ul li a,
+.my-account ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+.information ul li a:hover,
+.my-account ul li a:hover {
+    color: black;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icons span {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons span i {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #00acee;
+}
+
+.youtube {
+    background-color: #c4302b;
+}
+
+.pinterest {
+    background-color: #c8232c;
+}
+
+.instagram {
+    background: linear-gradient(#405de6,
+            #833ab4,
+            #c13584,
+            #e1306c,
+            #fd1d1d,
+            #f56040,
+            #fcaf45);
+}
+
+.content p {
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.content input {
+    outline: none;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #d2b495;
+    cursor: pointer;
+    padding: 0.5rem 0 1.2rem;
+    color: black;
+    display: block;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    width: 100%;
+    font-family: inherit;
+}
+
+.content input::-webkit-input-placeholder {
+    color: #eee;
+}
+
+.content button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.content button:hover {
+    background-color: #695A49;
+    color: white;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    border-top: 1px solid #d2b495;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 768px       */
+/* ********************************** */
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .hero {
+        padding: 2rem;
+    }
+
+    .customer-support {
+        display: none;
+    }
+
+    .content-shopping-cart {
+        display: none;
+    }
+
+    .navbar {
+        padding: 1rem 2rem;
+    }
+
+    .navbar .fa-bars {
+        display: block;
+        color: #fff;
+        font-size: 3rem;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .content-banner {
+        max-width: 50rem;
+        margin: 0 auto;
+        padding: 25rem 0;
+    }
+
+    .container-features {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem 2rem;
+    }
+
+    .card-feature {
+        padding: 2rem;
+    }
+
+    .heading-1 {
+        font-size: 2.4rem;
+    }
+
+    .card-category {
+        height: 12rem;
+    }
+
+    .card-category p {
+        font-size: 2rem;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .card-category span {
+        font-size: 1.4rem;
+    }
+
+    .container-options {
+        align-items: center;
+    }
+
+    .container-options span {
+        text-align: center;
+        padding: 1rem 2rem;
+    }
+
+    .container-products {
+        grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+    }
+
+    .gallery {
+        grid-template-rows: repeat(2, 15rem);
+    }
+
+    .container-blogs {
+        overflow: hidden;
+        grid-template-columns: 1fr 1fr;
+
+        height: 52rem;
+    }
+
+    .menu-footer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+
+
+/* ********************************** */
+/*       MEDIA QUERIES -- 468px       */
+/* ********************************** */
+@media (max-width: 468px) {
+    html {
+        font-size: 42.5%;
+    }
+
+    .content-banner {
+        max-width: 50rem;
+        padding: 22rem 0;
+    }
+
+    .heading-1 {
+        font-size: 2.8rem;
+    }
+
+    .card-feature {
+        flex-direction: column;
+        border-radius: 2rem;
+    }
+
+    .feature-content {
+        align-items: center;
+    }
+
+    .feature-content p {
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .feature-content span {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .container-options span {
+        font-size: 1.8rem;
+        padding: 1rem 1.5rem;
+        font-weight: 500;
+    }
+
+    .container-products {
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 1rem;
+    }
+
+    .container-img .discount {
+        font-size: 2rem;
+    }
+
+    .content-card-product h3 {
+        font-size: 2.2rem;
+    }
+
+    .gallery {
+        grid-template-rows: repeat(2, 20rem);
+    }
+
+    .blogs {
+        padding: 2rem;
+    }
+
+    .container-blogs {
+        grid-template-columns: 1fr;
+        height: 75rem;
+    }
+
+    .content-blog h3 {
+        font-size: 2.4rem;
+    }
+
+    .content-blog span {
+        font-size: 1.8rem;
+    }
+
+    .content-blog p {
+        font-size: 2.2rem;
+    }
+
+    .btn-read-more {
+        font-size: 1.8rem;
+    }
+
+    .contact-info ul,
+    .information ul,
+    .my-account ul {
+        display: none;
+    }
+
+    .contact-info {
+        align-items: center;
+    }
+
+    .menu-footer {
+        grid-template-columns: 1fr;
+    }
+
+    .content p {
+        font-size: 1.6rem;
+    }
+}

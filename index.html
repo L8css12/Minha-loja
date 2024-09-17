@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luck's store 💻</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="icone/Icone aba.png">
+</head>
+
+<body>
+    <!--PARTE INICIAL DA PAGINA-->
+    <header>
+        <div class="principal">
+            <div>
+                <div class="logoi">
+                    <h1>⌨️</h1>
+                </div>
+                <div class="titulo">
+                    <h1>LUCK'S STORE</h1>
+                </div>
+                <div class="divBusca">
+                    <input type="text" class="txtBusca" placeholder="Buscar..." />
+                    <h6></h6>
+                </div>
+                <div class="area-login">
+                    <img src="icone/Login.png" alt="Icone fazer login">
+                    <div class="area--login">
+                        <span>Faça o login <br> ou cadastra-se</span>
+                    </div>
+                </div>
+                <div class="atendimento-cliente">
+                    <img src="icone/Central de atendimento.png" alt="atendimento ao cliente">
+                    <div class="atendimento--cliente">
+                        <span>Atendimento <br> ao cliente</span>
+                    </div>
+                </div>
+                <div class="carrinho-compras">
+                    <img src="icone/Carrinho de compras.png" alt="carrinho de compras">
+                    <div class="carrinho--compras">
+                        <span>Carrinho de compras</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--MENU DA PAGINA-->
+
+    <div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#Hardware">Hardware</a></li>
+                <li><a href="#Perifericos">Periféricos</a></li>
+                <li><a href="#Computadores">Computadores</a></li>
+                <li><a href="#Kit Upgrade">Kit Upgrade</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!--IMAGEM DO MEIO (ABAIXO DO MENU)-->
+
+    <section class="imgmeio">
+        <div class="textoimg">
+            <p>-------------------------------------------------------</p>
+            <p>- Monte ou adquira seu pc a pronta entrega</p>
+            <p>-------------------------------------------------------</p>
+            <p>- Frete grátis para todo o Brasil</p>
+            <p>-------------------------------------------------------</p>
+            <p>- Você merece um novo pc !</p>
+            <p>-------------------------------------------------------</p>
+            <a href="#PRODUTOS">Produtos</a>
+        </div>
+    </section>
+
+    <!--MENU DE FRETE, OFERTAS, NOVIDADES, CONTATO-->
+
+    <main class="menu-beneficios">
+        <section class="base-beneficios">
+            <div class="alinhar">
+                <div class="cartoes">
+                    <img src="images/frete.png" alt="Frete">
+                    <div class="conteudo">
+                        <span>Fretes para todo Brasil</span>
+                        <p>Entrega Grátis ( acima de R$100 )</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="alinhar">
+                <div class="cartoes2">
+                    <img src="images/Computador.png" alt="Novidades">
+                    <div class="conteudo">
+                        <span>Novos pc's chegando !!</span>
+                        <p>Intel i9-14900KF, GeForce RTX 4090 24GB, 64GB DDR5, 2x SSD M.2 2TB</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section>
+            <h1 class="titulomeio">SOBRE A LUCK'S STORE</h1>
+            <div class="posicao-texto">
+                <div class="texto">
+                    <h2>
+                        Bem-vindo à <b>[LUCK'S STORE]</b>, a sua principal loja de PCs e tecnologia na Pensilvânia!
+                        Desde nossa
+                        inauguração, temos o compromisso de fornecer produtos de alta qualidade e um atendimento
+                        excepcional para todos os entusiastas da tecnologia e usuários diários. <br>
+                        <p></p>
+
+                        Localizados no coração da Pensilvânia, nossa missão é oferecer soluções tecnológicas que atendam
+                        às suas necessidades, sejam elas para jogos, trabalho, ou uso pessoal. Contamos com uma ampla
+                        gama de computadores, componentes e acessórios de marcas renomadas, sempre com a garantia de que
+                        você encontrará o que há de mais moderno e confiável no mercado.
+                    </h2> <br>
+                    <br>
+                    <br>
+                    <div class="img-loja">
+                        <img src="images/imagem da loja.png" alt="Fotos da loja" width="500px" height="400px">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="types">
+            <h1 class="titulomeio" id="DESTAQUES">DESTAQUES</h1>
+            <div class="container-categoria">
+                <div class="card-categoria categoria-i5">
+                    <img src="images/icone gtav.jpeg" alt="">
+                    <p> I5 - 14600k <br> R|T|X - 2060</p>
+                    <span>Ver mais</span>
+                </div>
+                <div class="card-categoria categoria-i7">
+                    <img src="images/icone red dead.jpeg" alt="">
+                    <p> I7 - 14700kF <br> R|T|X - 3060</p>
+                    <span>Ver mais</span>
+                </div>
+                <div class="card-categoria categoria-i9">
+                    <img src="images/icone valorant.jpeg" alt="">
+                    <p> I9 - 14900kF <br> R|T|X - 4060</p>
+                    <span>Ver mais</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="container top-products">
+            <h1 class="titulomeio" id="PRODUTOS">PRODUTOS</h1>
+            <div class="container-options">
+                <span>Destaques</span>
+                <span>Mais recentes</span>
+                <span>Mais Vendidos</span>
+            </div>
+
+            <!--A caixa contendo todos os produtos em grid -->
+            <div class="container-produtos">
+                <!--produto 1-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-1.jpg" alt="PC-Produto">
+                        <span class="discount">-10%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I5-10600k <br> R|T|X - 2080 8Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$3.675,99 <span>R$3.308,39</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 2-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-2.jpg" alt="PC-Produto">
+                        <span class="discount">-8%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I3-10300k <br> R|T|X - 2060 6Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$3.478,99 <span>R$3.200,67</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 3-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-3.jpg" alt="PC-Produto">
+                        <span class="discount">-20%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I7-10700k <br> R|T|X - 2090 12Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$4.800,99 <span>R$3.840,79</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 4-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-4.png" alt="PC-Produto">
+                        <span class="discount">-5%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I7-11700k <br> R|T|X - 2070 8Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$4.989,99 <span>R$4.740,49</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 5-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-5.jpg" alt="PC-Produto">
+                        <span class="discount">-15%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I9-10900k <br> R|T|X - 3060 12Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$6.987,99<span>R$5.939,79</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 6-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-6.jpg" alt="PC-Produto">
+                        <span class="discount">-19%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I9-11900k <br> R|T|X - 3070 12Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$8.798,99 <span>R$7.127,18</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 7-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-7.jpg" alt="PC-Produto">
+                        <span class="discount">-4%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I9-12900k <br> R|T|X - 3080 12Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$8979,99 <span>R$8.620,79</span> </p>
+
+                    </div>
+
+                </div>
+
+                <!--Produto 8-->
+                <div class="card-product">
+                    <div class="container-img">
+                        <img src="images/pc-produtos-8.jpg" alt="PC-Produto">
+                        <span class="discount">-30%</span>
+                        <div class="button-group">
+                            <span>
+                                <i class="fa-regular fa-eye"></i>
+                            </span>
+                            <span>
+                                <i class="fa-sharp fa-regular fa-heart"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-code-compare"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-card-product">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <h3>Pc Gamer I9-14900k <br> R|T|X - 4090 24Gb</h3>
+                        <span class="add-cart">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </span>
+                        <p class="price">R$25.967,99<span>R$18.177,59</span> </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <h1 class="titulomeio" id="ENCOMENDE">LOCALIZAÇÃO</h1>
+
+        <section class="local">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1564481.5436431295!2d-75.6812792!3d40.0167559!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c69538c37f17e1%3A0x989bf6c28fdad996!2sMicro%20Center!5e0!3m2!1spt-BR!2sbr!4v1726594184081!5m2!1spt-BR!2sbr"
+                width="900" height="450" style="border: 3px solid black; border-radius: 20px; box-shadow: 3.5rem;"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="container blogs">
+            <h1 class="titulomeio">SAIBA MAIS</h1>
+            <div class="container-blogs">
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/ambiente- de- montagem.jpg" alt="Ambiente de montagem de computadores">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Ambiente de montagem</h3>
+                        <span>17 de setembro 2024</span>
+                        <p>
+                            Essa é a nossa bancada de trabalho, o espaço onde a mágica da informática acontece! Aqui é
+                            onde montamos, configuramos e testamos os PCs para garantir que tudo esteja funcionando
+                            perfeitamente.
+                            </p>
+
+                        <p>Nossa bancada é equipada com tudo o que precisamos para realizar o nosso trabalho com
+                            eficiência. Temos um espaço amplo e bem organizado, com várias ferramentas e equipamentos à
+                            mão.
+                            </p>
+
+                        <p>Desde os componentes mais básicos, como placas-mãe e processadores, até os acessórios
+                            mais específicos, como coolers e cabos de conexão, tudo está cuidadosamente disposto para
+                            facilitar o nosso dia a dia.
+                        </p>
+                        <div class="btn-read-more">Ler Mais</div>
+                    </div>
+                </div>
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/ambiente de trabalho.png" alt="Imagem da entrada principal da cafeteria">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Ambiente de trabalho</h3>
+                        <span>17 de setembro 2024</span>
+                        <p>
+                            O ambiente de uma cafeteria confortável e aconchegante é perfeito para relaxar e aproveitar
+                            bons momentos.
+                            Com uma climatização agradável, os clientes podem se sentir à vontade em qualquer época do
+                            ano. Além disso,
+                            a seleção de produtos de qualidade, como cafés artesanais e doces frescos, complementa a
+                            experiência,
+                            tornando cada visita um verdadeiro prazer para os sentidos.
+                        </p>
+                        <div class="btn-read-more">Ler Mais</div>
+                    </div>
+                </div>
+
+                <div class="card-blog">
+                    <div class="container-img">
+                        <img src="images/imagem pc para venda.jpg" alt="Imagem de uma xicara de café ">
+                        <div class="button-group-blog">
+                            <span>
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </span>
+                            <span>
+                                <i class="fa-solid fa-link"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="content-blog">
+                        <h3>Melhor Pc à venda</h3>
+                        <span>17 de setembro 2024</span>
+                        <p>
+                            Nossa cafeteria oferece uma experiência única com uma variedade de cafés, que vão desde o
+                            tradicional expresso até
+                            opções especiais de bebidas quentes e frias. Cada bebida é preparada com grãos selecionados,
+                            garantindo qualidade
+                            total em cada xícara. Seja para aquecer os dias frios ou refrescar nas tardes quentes, nosso
+                            cardápio atende a
+                            todos os gostos, proporcionando sabor e excelência em cada gole.
+                        </p>
+                        <div class="btn-read-more">Ler Mais</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
